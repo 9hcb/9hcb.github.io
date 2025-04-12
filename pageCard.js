@@ -61,7 +61,7 @@ function test() {
 	// 获取URL的查询参数对象
 	const searchParams = new URLSearchParams(url.search);
 	// 获取page参数的值
-	let page = searchParams.get('page') || 'home';
+	let page = searchParams.get('page') || 'doc/about.html';
 	return page;
 };
 
