@@ -1,0 +1,131 @@
+body {
+	padding: 0;
+	margin: 0;
+	/*display: flex;*/
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#bg {
+	/*visibility: hidden;*/
+	position: fixed;
+	/*margin: auto;*/
+}
+
+#head {
+	position: fixed;
+	display: flex;
+	top: 5px;
+	height: 36px;
+	left: 5px;
+	right: 5px;
+	font-size: 18px;
+	font-family: system-ui;
+	padding-left: 9px;
+	padding-right: 9px;
+	align-items: center;
+}
+
+
+#head-link {
+	text-decoration: none;
+	font-weight: bolder;
+	color: #1336A4;
+}
+
+.box {
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: rgba(200, 200, 250, 0.5);
+	backdrop-filter: blur(5px);
+	border-radius: 9px;
+}
+
+#head-bar {
+	position: fixed;
+	left: 5px;
+	right: 5px;
+	top: 48px;
+	display: flex;
+	align-items: center;
+}
+
+#link-structure {
+	display: flex;
+	height: 24px;
+	left: 5px;
+	right: 5px;
+	max-width: 75%;
+	font-size: 12px;
+	font-family: system-ui;
+	color: #033680;
+	padding-left: 5px;
+	padding-right: 5px;
+	align-items: center;
+	overflow-x: auto;
+}
+
+.fileEle {
+	margin-left: 2px;
+	margin-right: 2px;
+	border-radius: 5px;
+	background-color: rgba(190, 190, 250, 0.5);
+}
+
+.tip-s {
+	/*display: flex;*/
+	margin: auto;
+	margin-top: 9px;
+	width: 33%;
+	padding: 9px;
+	background-color: rgba(220, 250, 220, 0.6);
+	border: 2px solid #AECCB7;
+	color: #005831;
+}
+
+button {
+	height: 24px;
+	border: none;
+	background-color: rgba(190, 190, 250, 0.65);
+	backdrop-filter: blur(5px);
+	border-radius: 9px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.close-button {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	background-color: rgba(180, 180, 240, 0.7);
+	border: 2px solid #1B3DDE;
+}
+
+#content {
+	position: fixed;
+	left: 5px;
+	right: 5px;
+	top: 77px;
+	bottom: 5px;
+	background-color: rgba(230, 230, 248, 0.6);
+	overflow-y: auto;
+}
+
+.pop-ups {
+/*	display: flex;*/
+	position: fixed;
+	left: 15px;
+	right: 15px;
+	top: 90px;
+	max-height: 60%;
+	padding: 5px;
+}
+
+#get-bg-button-div {
+	display: flex;
+	justify-content: flex-end;
+	/*margin-top: auto;*/
+	margin-top: 9px;
+	right: 0;
+	bottom: 0;
+}
