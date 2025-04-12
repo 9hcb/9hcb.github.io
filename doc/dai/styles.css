@@ -1,0 +1,61 @@
+h3.dysbotpage,
+h4.dysbotpage,
+h5.dysbotpage,
+h6.dysbotpage {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+p.dysbotpage,
+ul.dysbotpage {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h3.dysbotpage {
+    margin-left: 0.5em;
+}
+
+h4.dysbotpage {
+    margin-left: 1em;
+
+}
+
+h5.dysbotpage {
+    margin-left: 2em;
+}
+
+div.dysbotpage {
+    font-size: 12px;
+    margin-left: 3.5em;
+}
+
+a.dysbotpage {
+  /*  text-decoration: none;*/
+    color: #418CD6;
+    font-weight: bold;
+}
+
+li.dysbotpage {
+    font-size: 12px;
+    margin-left: 1em;
+}
+
+.bold.dysbotpage {
+    font-weight: bold;
+}
+
+.command.dysbotpage {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #00981A;
+}
+
+p.dysbotpage {
+    font-size: 8px;
+    color: #313D6B;
+}
+
+.attention {
+    color: #B70000;
+}
